@@ -16,7 +16,7 @@ steps:
     versionSpec: '8' # string. Required. JDK version. Default: 8.
     jdkArchitectureOption: 'x64' # Required. JDK architecture. 
     jdkSourceOption: 'LocalDirectory' 
-    jdkFile: 'C:\Program Files\Java\jre1.8.0_451'
+    jdkFile: 'C:\Program Files\Java\jre1.8.0_451\bin'
 - task: Maven@3
   inputs:
     mavenPomFile: 'pom.xml'
