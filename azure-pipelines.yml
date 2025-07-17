@@ -10,6 +10,12 @@ pool:
   name: Default
 
 steps:
+
+- task: JavaToolInstaller@0
+  inputs:
+    versionSpec: '8' # string. Required. JDK version. Default: 8.
+    jdkArchitectureOption: 'x64' # Required. JDK architecture. 
+    jdkSourceOption: # 'AzureStorage'
 - task: Maven@3
   inputs:
     mavenPomFile: 'pom.xml'
