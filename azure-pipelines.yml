@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  vmImage: CPC-admin-0OBEG
+  name: 'CPC-admin-0OBEG'
 
 steps:
 - task: Maven@3
@@ -20,3 +20,6 @@ steps:
     publishJUnitResults: true
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
     goals: 'package'
+
+
+
