@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  name: 'CPC-admin-0OBEG'
+  name: Default
 
 steps:
 - task: Maven@3
