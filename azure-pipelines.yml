@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  vmImage: ubuntu-latest
+  vmImage: CPC-admin-0OBEG
 
 steps:
 - task: Maven@3
